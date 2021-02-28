@@ -1,0 +1,84 @@
+﻿<div class="navbar bg-danger navbar-dark navbar-expand-sm">
+    <div class="container">
+
+        <a href="/Home/Index" class="navbar-brand">Filmler</a>
+
+
+
+        <ul class="navbar-nav mr-auto">
+            @* kullanıcı giriş yapmışsa *@
+            @if (User.Identity.IsAuthenticated)
+            {
+
+
+
+                @* admin rolünde olan kullanıcılar için gözükür *@
+                if (User.IsInRole("Admin"))
+                {
+
+
+                    <li class="nav-item">
+                        <a href="/Rols/RoleList" class="nav-link">Admin Roller</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/Rols/UserList" class="nav-link">Users</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a asp-controller="Admin" asp-action="FilmList" class="nav-link">Filmler Listesi</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a asp-controller="Admin" asp-action="CategoryList" class="nav-link"> Kategoriler Listesi</a>
+                    </li>
+                }
+
+
+
+            }
+
+            @* kullanıcı giriş yapmamışsa *@
+            else
+            {
+                <li class="nav-item">
+                    <a href="/Films" class="nav-link">Filmler</a>
+                </li>
+                
+            }
+
+
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+
+            @* kullanıcı giriş yapmışsa *@
+            @if (User.Identity.IsAuthenticated)
+            {
+
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">@User.Identity.Name</a>
+                    
+                </li>
+
+                <li class="nav-item">
+                    <a href="/Account/Logout" class="nav-link">Logout</a>
+                </li>
+            }
+            else
+            {
+                <li class="nav-item">
+                    <a asp-controller="Account" asp-action="Login" class="nav-link">Login</a>
+                </li>
+
+                <li class="nav-item">
+                    <a asp-controller="Account" asp-action="Register" class="nav-link">Register</a>
+                </li>
+            }
+
+
+        </ul>
+
+    </div>
+</div>

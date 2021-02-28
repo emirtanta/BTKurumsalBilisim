@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    @RenderSection("Css", false)
+    <link href="~/css/site.css" rel="stylesheet" />
+    <title>Bt Kurumsal</title>
+</head>
+<body>
+
+
+    @* partial view kullanma *@
+    @await Html.PartialAsync("_Navbar")
+
+    <main class="my-3">
+        <div class="container">
+
+            @* ürün mesajının ürün ekle-sil-güncelle şeklinde gösterilmesi sağlandı *@
+            @if (TempData["message"] != null)
+            {
+                <partial name="_ResultMessage" model="@(TempData.Get<AlertMessage>("message"))" />
+            }
+
+            @RenderBody()
+        </div>
+    </main>
+
+    <footer class="py-5 bg-dark text-white text-center">
+        Bt Kurumsal için hazırlanmıştır
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    @* sadece belirli yerlerde script kullanılmasını sağlayan kod *@
+    @RenderSection("Scripts", false)
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BTKurumsalBilisim.Business\bin\Debug\netcoreapp3.1\BTKurumsalBilisim.Business.deps.json
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BTKurumsalBilisim.Business\bin\Debug\netcoreapp3.1\BTKurumsalBilisim.Business.dll
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BTKurumsalBilisim.Business\bin\Debug\netcoreapp3.1\BTKurumsalBilisim.Business.pdb
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BTKurumsalBilisim.Business\obj\Debug\netcoreapp3.1\BTKurumsalBilisim.Business.csprojAssemblyReference.cache
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BTKurumsalBilisim.Business\obj\Debug\netcoreapp3.1\BTKurumsalBilisim.Business.AssemblyInfoInputs.cache
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BTKurumsalBilisim.Business\obj\Debug\netcoreapp3.1\BTKurumsalBilisim.Business.AssemblyInfo.cs
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BTKurumsalBilisim.Business\obj\Debug\netcoreapp3.1\BTKurumsalBilisim.Business.csproj.CoreCompileInputs.cache
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BTKurumsalBilisim.Business\obj\Debug\netcoreapp3.1\BTKurumsalBilisim.Business.dll
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BTKurumsalBilisim.Business\obj\Debug\netcoreapp3.1\BTKurumsalBilisim.Business.pdb
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BTKurumsalBilisim.Business\bin\Debug\netcoreapp3.1\BtKurumsalBilisim.Data.dll
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BTKurumsalBilisim.Business\bin\Debug\netcoreapp3.1\BTKurumsalBilisim.Entity.dll
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BTKurumsalBilisim.Business\bin\Debug\netcoreapp3.1\BtKurumsalBilisim.Data.pdb
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BTKurumsalBilisim.Business\bin\Debug\netcoreapp3.1\BTKurumsalBilisim.Entity.pdb
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BTKurumsalBilisim.Business\obj\Debug\netcoreapp3.1\BTKurumsalBilisim.Business.csproj.CopyComplete

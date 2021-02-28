@@ -1,0 +1,33 @@
+
+
+**************** Örnek Admin Kullanýcý Giriþi************
+
+Admin Rolünde Giriþ için
+
+email: sdy51493@cuoly.com
+þifre : /*Et19901990
+
+Admin dýþýndaki kullanýcý giriþ bilgileri
+email: cuo69499@cuoly.com
+þifre: /*Et19901990
+
+Yukarýdaki bilgiler ile Admin rolüne sahip hazýr bir kullanýcý oluþturdum ve ilgili bilgiler ile giriþ yaparak hýzlýca uygulamayý inceleyebilirsiniz.
+
+
+*************************************************************
+
+************** Örnek Veriler *******************************
+
+Omdb api kýsmýný uygulamaya entegre edemediðimden dolayý kendimce oluþturmuþ olduðum mini veritabaný tasarýmý ile uygulamayý dinamik hale getirmeye çalýþtým. Uygulamaya yukarýdaki Admin rolündeki email ve þifre bilgileri ile giriþ yapýldýðýnda hýzlýca film ekleme-güncelleme-silme iþlemleri yapýlabilmektedir. Ayrýca filmlerin anasayfada görünmesi ve onaylý olmayanlarýn gözükmemesi iþlemleri ile filmlerin kategorileri de kolayca eklenip-güncelenebilmektedir.
+
+Admin rolündeki kullanýcý giriþi içinde hemen altýndaki bilgiler ile giriþ yapýldýðýnda filmler için ekle-güncelle-silme iþlemleri Admin rolü olmadan yapýlamamaktadýr
+
+
+************** Login Register Ýþlemleri *******************
+
+
+Kayýt olma iþlemi yapmadan önce kayýt olacak kullanýcýya e-posta gönderilebilmesi için AccountController içerisindeki Register ve ResetPassword kýsýmlarýndaki localhost baðlantýsýnýn numarasýný kullandýðýnýz bilgisayarýn localhost numarasý ile güncelleyiniz.Gülcellemediðiniz takdirde üye olma iþlemi gerçekleþmeyecektir.
+
+Uygulamaya kayýt yaptýrýldýktan sonra login olabilmek için kayýt yapmýþ olduðunuz e-posta adresinize siteye kayýt olduðunuza dair bir e-posta bilgisi gelmektedir. 
+
+Üyeliðin aktif olmasý için kayýt olunan e-posta adresine gelen baðlantýya týklanmalýdýr. Aktivasyon linkine týklandýktan sonra siteye üye olma iþlemi tamamlanmaktadýr.

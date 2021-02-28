@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTKurumsalBilisim.Entity", "BTKurumsalBilisim.Entity\BTKurumsalBilisim.Entity.csproj", "{A8905990-A9F2-46A5-99A7-3F8015BC53B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BtKurumsalBilisim.Data", "BtKurumsalBilisim.Data\BtKurumsalBilisim.Data.csproj", "{4F518735-396B-4353-9376-8DF3A137D01E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTKurumsalBilisim.Business", "BTKurumsalBilisim.Business\BTKurumsalBilisim.Business.csproj", "{659D1F25-E5D3-46FB-A326-C4D5C4398EBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTKurumsalBilisim.WebUI", "BTKurumsalBilisim.WebUI\BTKurumsalBilisim.WebUI.csproj", "{C1148872-7074-4655-934F-EB9561853739}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{122E6092-ACDC-4763-8935-84DCDBC6A540}"
+	ProjectSection(SolutionItems) = preProject
+		BeniOku.txt = BeniOku.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8905990-A9F2-46A5-99A7-3F8015BC53B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8905990-A9F2-46A5-99A7-3F8015BC53B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8905990-A9F2-46A5-99A7-3F8015BC53B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8905990-A9F2-46A5-99A7-3F8015BC53B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F518735-396B-4353-9376-8DF3A137D01E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F518735-396B-4353-9376-8DF3A137D01E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F518735-396B-4353-9376-8DF3A137D01E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F518735-396B-4353-9376-8DF3A137D01E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{659D1F25-E5D3-46FB-A326-C4D5C4398EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{659D1F25-E5D3-46FB-A326-C4D5C4398EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{659D1F25-E5D3-46FB-A326-C4D5C4398EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{659D1F25-E5D3-46FB-A326-C4D5C4398EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1148872-7074-4655-934F-EB9561853739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1148872-7074-4655-934F-EB9561853739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1148872-7074-4655-934F-EB9561853739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1148872-7074-4655-934F-EB9561853739}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56D8303A-FC7E-4ED4-9095-6920C36AD570}
+	EndGlobalSection
+EndGlobal

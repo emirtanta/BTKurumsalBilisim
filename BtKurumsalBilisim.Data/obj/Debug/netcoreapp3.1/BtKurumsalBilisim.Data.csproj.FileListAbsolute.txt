@@ -1,0 +1,15 @@
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BtKurumsalBilisim.Data\bin\Debug\netcoreapp3.1\BtKurumsalBilisim.Data.deps.json
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BtKurumsalBilisim.Data\bin\Debug\netcoreapp3.1\BtKurumsalBilisim.Data.runtimeconfig.json
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BtKurumsalBilisim.Data\bin\Debug\netcoreapp3.1\BtKurumsalBilisim.Data.runtimeconfig.dev.json
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BtKurumsalBilisim.Data\bin\Debug\netcoreapp3.1\BtKurumsalBilisim.Data.dll
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BtKurumsalBilisim.Data\bin\Debug\netcoreapp3.1\BtKurumsalBilisim.Data.pdb
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BtKurumsalBilisim.Data\bin\Debug\netcoreapp3.1\BTKurumsalBilisim.Entity.dll
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BtKurumsalBilisim.Data\bin\Debug\netcoreapp3.1\BTKurumsalBilisim.Entity.pdb
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BtKurumsalBilisim.Data\obj\Debug\netcoreapp3.1\BtKurumsalBilisim.Data.csprojAssemblyReference.cache
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BtKurumsalBilisim.Data\obj\Debug\netcoreapp3.1\BtKurumsalBilisim.Data.AssemblyInfoInputs.cache
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BtKurumsalBilisim.Data\obj\Debug\netcoreapp3.1\BtKurumsalBilisim.Data.AssemblyInfo.cs
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BtKurumsalBilisim.Data\obj\Debug\netcoreapp3.1\BtKurumsalBilisim.Data.csproj.CoreCompileInputs.cache
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BtKurumsalBilisim.Data\obj\Debug\netcoreapp3.1\BtKurumsalBilisim.Data.csproj.CopyComplete
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BtKurumsalBilisim.Data\obj\Debug\netcoreapp3.1\BtKurumsalBilisim.Data.dll
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BtKurumsalBilisim.Data\obj\Debug\netcoreapp3.1\BtKurumsalBilisim.Data.pdb
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BtKurumsalBilisim.Data\obj\Debug\netcoreapp3.1\BtKurumsalBilisim.Data.genruntimeconfig.cache

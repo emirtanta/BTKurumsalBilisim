@@ -1,0 +1,21 @@
+﻿@model CategoryListViewModels
+@{
+    ViewData["Title"] = "Default";
+    Layout = "~/Views/Shared/_SiteLayout.cshtml";
+}
+
+<div class="list-group">
+
+    <a href="/Films" class="list-group-item list-group-item-action">Tüm Kategoriler</a>
+
+
+
+    @foreach (var item in Model.Categories)
+    {
+        @* ayrıca active class'ının da eklenmesi  *@
+        <a asp-controller="Film"
+           asp-action="List" asp-route-category="@item.Url.ToLower()"
+           class="list-group-item list-group-item-action @(ViewBag.SelectedCategory==item.Url.ToLower()?"active":"")">@item.Name</a>
+    }
+</div>
+

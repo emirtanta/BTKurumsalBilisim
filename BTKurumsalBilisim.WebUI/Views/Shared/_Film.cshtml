@@ -1,0 +1,18 @@
+﻿@* Film class'ından partial view'e veri aktardım *@
+@model Film
+
+<div class="card md-4">
+    <img src="~/img/images.jpg" alt="@Model.Name" />
+    <div class="card-body">
+        <h4 class="card-title">
+            <a href="#">@Model.Name</a>
+        </h4>
+
+    </div>
+    <div class="card-footer text-center">
+
+        <a asp-controller="Film" asp-action="Details" asp-route-url="@Model.Url">İncele</a>
+    </div>
+</div>
+
+

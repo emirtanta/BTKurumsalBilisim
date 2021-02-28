@@ -1,0 +1,8 @@
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BTKurumsalBilisim.Entity\bin\Debug\netcoreapp3.1\BTKurumsalBilisim.Entity.deps.json
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BTKurumsalBilisim.Entity\bin\Debug\netcoreapp3.1\BTKurumsalBilisim.Entity.dll
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BTKurumsalBilisim.Entity\bin\Debug\netcoreapp3.1\BTKurumsalBilisim.Entity.pdb
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BTKurumsalBilisim.Entity\obj\Debug\netcoreapp3.1\BTKurumsalBilisim.Entity.AssemblyInfoInputs.cache
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BTKurumsalBilisim.Entity\obj\Debug\netcoreapp3.1\BTKurumsalBilisim.Entity.AssemblyInfo.cs
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BTKurumsalBilisim.Entity\obj\Debug\netcoreapp3.1\BTKurumsalBilisim.Entity.csproj.CoreCompileInputs.cache
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BTKurumsalBilisim.Entity\obj\Debug\netcoreapp3.1\BTKurumsalBilisim.Entity.dll
+C:\Users\emirt\source\repos\DotnetCoreProjeleri\BTKurumsalBilisim\BTKurumsalBilisim.Entity\obj\Debug\netcoreapp3.1\BTKurumsalBilisim.Entity.pdb

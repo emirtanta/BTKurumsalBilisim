@@ -1,0 +1,92 @@
+﻿@model FilmModel
+
+@{
+    ViewData["Title"] = $"{Model.Name}";
+    Layout = "~/Views/Shared/_SiteLayout.cshtml";
+}
+
+<h1 class="text-center">@ViewBag.Title</h1>
+
+<hr />
+<form asp-controller="Admin" asp-action="FilmEdit" method="POST">
+
+    <div class="row">
+        <div class="col-md-8">
+
+            <input type="hidden" name="FilmId" value="@Model.FilmId">
+
+            <div class="form-group row">
+                <label asp-for="Name" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" asp-for="Name">
+                </div>
+            </div>
+
+            @* url bölümü *@
+            <div class="form-group row">
+                <label asp-for="Url" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" asp-for="Url">
+                </div>
+            </div>
+
+            @* onaylı mı bölümü *@
+            <div class="form-group row">
+                <label asp-for="IsApproved" class="col-md-2 col-form-label form-check-label"></label>
+                <div class="col-sm-10">
+                    <input class="form-check-input" asp-for="IsApproved">
+                </div>
+            </div>
+
+            @* ana sayfa onaylı mı bölümü *@
+            <div class="form-group row">
+                <label asp-for="IsHome" class="col-md-2 col-form-label form-check-label"></label>
+                <div class="col-sm-10">
+                    <input class="form-check-input" asp-for="IsHome">
+                </div>
+            </div>
+
+
+            @* oyuncular bölümü *@
+            <div class="form-group row">
+                <label asp-for="PlayerDescription" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" asp-for="PlayerDescription">
+                </div>
+            </div>
+
+            @* description bölümü *@
+            <div class="form-group row">
+                <label asp-for="Description" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" asp-for="Description"></textarea>
+
+                </div>
+            </div>
+
+            @* buton bölümü *@
+            <div class="form-group row">
+                <div class="col-sm-10 offset-sm-2">
+                    <button type="submit" class="btn btn-primary">Gönder</button>
+
+                    <a href="/Admin/FilmList" class="btn btn-danger">İptal</a>
+                </div>
+            </div>
+
+        </div>
+
+        @* viewbag üzerinden tüm kategoriler getirildi *@
+        <div class="col-md-4">
+            @foreach (var item in (List<Category>)ViewBag.Categories)
+            {
+                <div class="custom-control custom-checkbox">
+                    @* iligli kategoriye ait ürün seçili olarak getirilir *@
+                    <input type="checkbox" name="categoryIds" value="@item.CategoryId" class="custom-control-input" id="category_@(item.CategoryId)" @(Model.SelectedCategories.Any(i => i.CategoryId == item.CategoryId) ? "checked" : "")>
+                    <label class="custom-control-label" for="category_@(item.CategoryId)">@item.Name</label>
+                </div>
+            }
+        </div>
+
+    </div>
+</form>
+
